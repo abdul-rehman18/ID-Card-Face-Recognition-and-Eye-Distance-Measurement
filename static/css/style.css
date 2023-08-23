@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box {
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin-top: 10px;
+}
+
+
+.image-container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image {
+    max-width: 300px;
+    max-height: 300px;
+    margin-right: 20px;
+}
+
+
+.result-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.match-text {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.no-match-text {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.similarity-text {
+    margin-top: 10px;
+}
+
+
+.custom-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+
+.distance{
+    text-align: center;
+}

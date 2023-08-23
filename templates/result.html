@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Comparison Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Comparison Result</h1>
+    <div class="result-container">
+        {% if match %}
+            <p class="match-text">Images match!</p>
+        {% else %}
+            <p class="no-match-text">Images do not match.</p>
+        {% endif %}
+        <p class="similarity-text">Similarity Score: {{ similarity_score }}</p>
+        <div class="image-container">
+            <img class="image" src="{{ id_card_image_url }}" alt="ID Card">
+            <img class="image" src="{{ person_image_url }}" alt="Person">
+        </div>
+        <p class="distance">Distance between eyes: {{distance_mm}} mm</p>
+        <p class="distance">Distance pixel: {{distance_px}} mm</p>
+        <p class="distance">Conversion factor: {{conv_fact}} mm</p>
+        <p class="distance">Absolute Distance between eyes: {{ref}} mm</p>
+        
+        <div class="image-container">
+            <img class="image1" src="{{ conf_matrix_url }}" alt="Confusion Matrix">
+        </div>
+        <p>F1 Score: {{ f1 }}</p>
+        <p>Accuracy: {{ accuracy }}</p>
+
+    </div>
+</body>
+</html>

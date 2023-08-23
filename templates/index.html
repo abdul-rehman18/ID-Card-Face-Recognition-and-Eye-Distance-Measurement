@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Comparison</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Face Comparison</h1>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <label for="id_card">Upload ID Card Image:</label>
+        <input type="file" name="id_card" accept=".jpg, .jpeg, .png"><br>
+        <label for="person_image">Upload Person's Image:</label>
+        <input type="file" name="person_image" accept=".jpg, .jpeg, .png"><br>
+        <button class="custom-button" type="submit">Compare</button>
+    </form>
+</body>
+</html>
