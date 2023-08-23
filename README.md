@@ -45,12 +45,6 @@ The application supports image formats: JPG, JPEG, and PNG.
 The similarity score threshold for predicting a match is set to 0.68. You can modify this threshold in the code as needed.
 Ensure that the required dependencies are installed before running the code.
 
-# Contributing
-Contributions are welcome! If you find any issues or improvements, please create a pull request or open an issue in the GitHub repository.
-
-# License
-This project is licensed under the MIT License.
-
 # Acknowledgments
 The face recognition and eye distance measurement techniques are based on various libraries and resources available in the public domain. 
 Special thanks to the developers and maintainers of Flask, face_recognition, scikit-learn and OpenCV for their excellent tools.
