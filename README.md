@@ -49,7 +49,7 @@ Ensure that the required dependencies are installed before running the code.
 Contributions are welcome! If you find any issues or improvements, please create a pull request or open an issue in the GitHub repository.
 
 # License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
 
 # Acknowledgments
 The face recognition and eye distance measurement techniques are based on various libraries and resources available in the public domain. 
